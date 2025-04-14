@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+
+# Airflow
+airflow/logs/
+airflow/airflow.db
+
+# GCP credentials
+google/google_credentials.json
+
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# DBT
+dbt/target/
+dbt/dbt_modules/
+dbt/profiles.yml
+
+# Docker
+*.log
+.env
+.env.*
+
+# System files
+.DS_Store
+*.swp
+*.bak

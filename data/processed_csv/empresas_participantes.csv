@@ -1,0 +1,190 @@
+bloque,empresa,rol,interes_de_participacion,pais
+Asignaciones,Pemex Exploracion y Produccion,Operador,1.0,Mexico
+CNH-A1-TRION/2016,"Woodside Petroleo Operaciones de Mexico, S. de R.L. de C.V.",Operador,0.6,Australia
+CNH-A1-TRION/2016,Pemex Exploracion y Produccion,Socio Financiero,0.4,Mexico
+CNH-A3.CARDENAS-MORA/2018,Pemex Exploracion y Produccion,Socio Financiero,0.5,Mexico
+CNH-A3.CARDENAS-MORA/2018,"Petrolera Cardenas Mora, S.A.P.I. de C.V.",Operador,0.5,Egipto
+CNH-A4.OGARRIO/2018,Pemex Exploracion y Produccion,Socio Financiero,0.5,Mexico
+CNH-A4.OGARRIO/2018,"Wintershall Dea Mexico, S. de R.L. de C.V.",Operador,0.5,Alemania
+CNH-M1-EK-BALAM/2017,Pemex Exploracion y Produccion,Operador,1.0,Mexico
+CNH-M2-SANTUARIO-EL GOLPE/2017,Pemex Exploracion y Produccion,Socio Financiero,0.64,Mexico
+CNH-M2-SANTUARIO-EL GOLPE/2017,"Perenco Mexico, S.A. de C.V.",Operador,0.36,Reino Unido
+CNH-M3-MISION/2018,Pemex Exploracion y Produccion,Socio Financiero,0.51,Mexico
+CNH-M3-MISION/2018,"Servicios Multiples de Burgos, S.A. de C.V.",Operador,0.49,Mexico
+CNH-M4-EBANO/2018,"DS Servicios Petroleros, S.A. de C.V.",Operador,0.5499,Mexico
+CNH-M4-EBANO/2018,Pemex Exploracion y Produccion,Socio Financiero,0.45,Mexico
+CNH-M4-EBANO/2018,"D&S Petroleum, S.A. de C.V.",Socio Financiero,0.0001,Mexico
+CNH-M5-MIQUETLA/2018,"Operadora de Campos DWF, S.A. de C.V.",Operador,0.51,Mexico
+CNH-M5-MIQUETLA/2018,Pemex Exploracion y Produccion,Socio Financiero,0.49,Mexico
+CNH-R01-L01-A2/2015,"Hokchi Energy, S.A. de C.V.",Operador,0.475,Argentina
+CNH-R01-L01-A2/2015,"Sierra Blanca P&D, S. de R.L. de C.V.",Socio Financiero,0.275,Mexico
+CNH-R01-L01-A2/2015,"Talos Energy Offshore Mexico 2, S. de R.L. de C.V.",Socio Financiero,0.25,E.U.A.
+CNH-R01-L01-A7/2015,"Sierra O&G Exploracion y Produccion, S. de R.L. de C.V.",Socio Financiero,0.4,Mexico
+CNH-R01-L01-A7/2015,"Talos Energy Offshore Mexico 7, S. de R.L. de C.V.",Operador,0.35,E.U.A.
+CNH-R01-L01-A7/2015,"Premier Oil Exploration and Production Mexico, S.A. de C.V.",Socio Financiero,0.25,Reino Unido
+CNH-R01-L02-A1/2015,"Eni Mexico, S. de R.L. de C.V.",Operador,1.0,Italia
+CNH-R01-L02-A2/2015,"Hokchi Energy, S.A. de C.V.",Operador,0.55,Argentina
+CNH-R01-L02-A2/2015,"Sierra Coronado E&P, S. de R.L. de C.V.",Socio Financiero,0.2,Mexico
+CNH-R01-L02-A2/2015,"AEI Hidrocarburos, S.A. de C.V.",Socio Financiero,0.08,Mexico
+CNH-R01-L02-A2/2015,"Sierra Blanca P&D, S. de R.L. de C.V.",Socio Financiero,0.071,Mexico
+CNH-R01-L02-A2/2015,"Sierra Perote E&P, S. de R.L. de C.V.",Socio Financiero,0.069,Mexico
+CNH-R01-L02-A2/2015,"Sierra Offshore Exploration, S. de R.L. de C.V.",Socio Financiero,0.03,Mexico
+CNH-R01-L02-A4/2015,"Fieldwood Energy E&P Mexico, S. de R.L. de C.V.",Operador,0.5,E.U.A.
+CNH-R01-L02-A4/2015,"Petrobal Upstream Delta 1, S.A. de C.V.",Socio Financiero,0.5,Mexico
+CNH-R01-L03-A1/2015,"Diavaz Offshore, S.A.P.I. de C.V.",Operador,1.0,Mexico
+CNH-R01-L03-A10/2016,"Oleum del Norte, S.A.P.I. de C.V.",Operador,1.0,"Colombia,Mexico"
+CNH-R01-L03-A11/2015,"Renaissance Oil Corp., S.A. de C.V.",Operador,1.0,Canada
+CNH-R01-L03-A12/2015,"Grupo Mareografo, S.A. de C.V.",Operador,1.0,Mexico
+CNH-R01-L03-A13/2015,"Mayacaste Oil & Gas, S.A.P.I. de C.V.",Operador,1.0,Mexico
+CNH-R01-L03-A14/2015,"Canamex Energy Holdings, S.A.P.I. de C.V.",Operador,1.0,"Mexico,E.U.A.,Paises Bajos"
+CNH-R01-L03-A15/2015,"Renaissance Oil Corp., S.A. de C.V.",Operador,1.0,Canada
+CNH-R01-L03-A16/2015,"Roma Energy Mexico, S. de R.L. de C.V.",Operador,1.0,"E.U.A.,Mexico"
+CNH-R01-L03-A17/2016,"Servicios de Extraccion Petrolera Lifting de Mexico, S.A. de C.V.",Operador,1.0,Mexico
+CNH-R01-L03-A18/2015,"Consorcio Petrolero 5M del Golfo, S.A.P.I. de C.V.",Operador,1.0,Mexico
+CNH-R01-L03-A19/2016,"Renaissance Oil Corp., S.A. de C.V.",Operador,1.0,Canada
+CNH-R01-L03-A2/2015,"Consorcio Petrolero 5M del Golfo, S.A.P.I. de C.V.",Operador,1.0,Mexico
+CNH-R01-L03-A20/2016,"GS Oil & Gas, S.A.P.I. de C.V.",Operador,1.0,Mexico
+CNH-R01-L03-A21/2016,"Consorcio Petrolero 5M del Golfo, S.A.P.I. de C.V.",Operador,1.0,Mexico
+CNH-R01-L03-A22/2015,"Secadero Petroleo y Gas, S.A. de C.V.",Operador,1.0,Mexico
+CNH-R01-L03-A23/2015,"Perseus Tajon, S.A. de C.V.",Operador,1.0,Mexico
+CNH-R01-L03-A24/2016,"Tonalli Energia, S.A.P.I. de C.V.",Operador,1.0,Mexico
+CNH-R01-L03-A25/2015,"Renaissance Oil Corp., S.A. de C.V.",Operador,1.0,Canada
+CNH-R01-L03-A3/2015,"CMM Calibrador, S.A. de C.V.",Operador,1.0,Mexico
+CNH-R01-L03-A4/2015,"Calicanto Oil & Gas, S.A.P.I. de C.V.",Operador,1.0,Mexico
+CNH-R01-L03-A5/2015,"Consorcio Petrolero 5M del Golfo, S.A.P.I. de C.V.",Operador,1.0,Mexico
+CNH-R01-L03-A6/2015,"Diavaz Offshore, S.A.P.I. de C.V.",Operador,1.0,Mexico
+CNH-R01-L03-A7/2015,"Servicios de Extraccion Petrolera Lifting de Mexico, S.A. de C.V.",Operador,1.0,Mexico
+CNH-R01-L03-A8/2015,"Dunas Exploracion y Produccion, S.A.P.I. de C.V.",Operador,1.0,Mexico
+CNH-R01-L03-A9/2015,"Perseus Fortuna Nacional, S.A. de C.V.",Operador,1.0,Mexico
+CNH-R01-L04-A1.CPP/2016,"China Offshore Oil Corporation E&P Mexico, S.A.P.I. de C.V.",Operador,1.0,China
+CNH-R01-L04-A1.CS/2016,"Equinor Upstream Mexico, S.A. de C.V.",Socio Financiero,0.3334,Noruega
+CNH-R01-L04-A1.CS/2016,"BP Exploration Mexico, S.A. de C.V.",Operador,0.3333,Reino Unido
+CNH-R01-L04-A1.CS/2016,"TotalEnergies EP Mexico, S.A. de C.V.",Socio Financiero,0.3333,Francia
+CNH-R01-L04-A2.CPP/2016,"Exxonmobil Exploracion y Produccion Mexico, S. de R.L. de C.V.",Socio Financiero,0.5,E.U.A.
+CNH-R01-L04-A2.CPP/2016,"Total E&P Mexico, S.A. de C.V.",Operador,0.5,Francia
+CNH-R01-L04-A3.CPP/2016,"Chevron Energia de Mexico, S. de R.L. de C.V.",Operador,0.333334,E.U.A.
+CNH-R01-L04-A3.CPP/2016,"Inpex E&P Mexico PB-03, S.A. de C.V.",Socio Financiero,0.333333,Japon
+CNH-R01-L04-A3.CPP/2016,Pemex Exploracion y Produccion,Socio Financiero,0.333333,Mexico
+CNH-R01-L04-A3.CS/2016,"Equinor Upstream Mexico, S.A. de C.V.",Operador,0.3334,Noruega
+CNH-R01-L04-A3.CS/2016,"BP Exploration Mexico, S.A. de C.V.",Socio Financiero,0.3333,Reino Unido
+CNH-R01-L04-A3.CS/2016,"Total E&P Mexico, S.A. de C.V.",Socio Financiero,0.3333,Francia
+CNH-R01-L04-A4.CPP/2016,"China Offshore Oil Corporation E&P Mexico, S.A.P.I. de C.V.",Operador,0.4,China
+CNH-R01-L04-A4.CPP/2016,"PC Carigali Mexico Operations, S.A. de C.V.",Socio Financiero,0.3,Malasia
+CNH-R01-L04-A4.CPP/2016,"Shell Exploracion y Extraccion de Mexico, S.A. de C.V.",Socio Financiero,0.3,Paises Bajos
+CNH-R01-L04-A4.CS/2016,"PC Carigali Mexico Operations, S.A. de C.V.",Operador,0.5,Malasia
+CNH-R01-L04-A4.CS/2016,"Sierra Coronado E&P, S. de R.L. de C.V.",Socio Financiero,0.5,Mexico
+CNH-R01-L04-A5.CS/2016,"Murphy Sur, S. de R.L. de C.V.",Operador,0.4,E.U.A.
+CNH-R01-L04-A5.CS/2016,"PC Carigali Mexico Operations, S.A. de C.V.",Socio Financiero,0.3,Malasia
+CNH-R01-L04-A5.CS/2016,"Sierra Offshore Exploration, S. de R.L. de C.V.",Socio Financiero,0.3,Mexico
+CNH-R02-L01-A10.CS/2017,"Eni Mexico, S. de R.L. de C.V.",Operador,0.65,Italia
+CNH-R02-L01-A10.CS/2017,"Lukoil Upstream Mexico, S. de R.L. de C.V.",Socio Financiero,0.2,Rusia
+CNH-R02-L01-A10.CS/2017,"Capricorn Energy Mexico, S. de R.L. de C.V.",Socio Financiero,0.15,Reino Unido
+CNH-R02-L01-A11.CS/2017,"Repsol Exploracion Mexico, S.A. de C.V.",Operador,0.6,Espana
+CNH-R02-L01-A11.CS/2017,"Sierra Perote E&P, S. de R.L. de C.V.",Socio Financiero,0.4,Mexico
+CNH-R02-L01-A12.CS/2017,"Lukoil Upstream Mexico, S. de R.L. de C.V.",Operador,0.6,Rusia
+CNH-R02-L01-A12.CS/2017,"Eni Mexico, S. de R.L. de C.V.",Socio Financiero,0.4,Italia
+CNH-R02-L01-A14.CS/2017,"Eni Mexico, S. de R.L. de C.V.",Operador,0.6,Italia
+CNH-R02-L01-A14.CS/2017,"Citla Energy B14, S.A.P.I. de C.V.",Socio Financiero,0.4,Mexico
+CNH-R02-L01-A15.CS/2017,"Qatarenergy E&P Mexico, S.A. de C.V.",Socio Financiero,0.35,Qatar
+CNH-R02-L01-A15.CS/2017,"TotalEnergies EP Mexico, S.A. de C.V.",Operador,0.35,Francia
+CNH-R02-L01-A15.CS/2017,"Opicoil Mexico, S.A. de C.V.",Socio Financiero,0.3,E.U.A.
+CNH-R02-L01-A2.TM/2017,Pemex Exploracion y Produccion,Operador,0.7,Mexico
+CNH-R02-L01-A2.TM/2017,"Deutsche Erdoel Mexico, S. de R.L. de C.V.",Socio Financiero,0.3,Alemania
+CNH-R02-L01-A6.CS/2017,"ECP Hidrocarburos Mexico, S.A. de C.V.",Socio Financiero,0.5,Colombia
+CNH-R02-L01-A6.CS/2017,"PC Carigali Mexico Operations, S.A. de C.V.",Operador,0.5,Malasia
+CNH-R02-L01-A7.CS/2017,"Eni Mexico, S. de R.L. de C.V.",Operador,0.6429,Italia
+CNH-R02-L01-A7.CS/2017,"Citla Energy B7, S.A.P.I. de C.V.",Socio Financiero,0.3571,Mexico
+CNH-R02-L01-A8.CS/2017,Pemex Exploracion y Produccion,Operador,1.0,Mexico
+CNH-R02-L01-A9.CS/2017,"Eni Mexico, S. de R.L. de C.V.",Operador,0.5,Italia
+CNH-R02-L01-A9.CS/2017,"Repsol Exploracion Mexico, S.A. de C.V.",Socio Financiero,0.5,Espana
+CNH-R02-L02-A1.BG/2017,"Iberoamericana de Hidrocarburos CQ, Exploracion & Produccion de Mexico, S.A. de C.V.",Operador,1.0,Mexico
+CNH-R02-L02-A10.CS/2017,"Pantera Exploracion y Produccion 2.2, S.A.P.I. de C.V.",Operador,1.0,"Canada,Mexico"
+CNH-R02-L02-A4.BG/2017,"Pantera Exploracion y Produccion 2.2, S.A.P.I. de C.V.",Operador,1.0,"Canada,Mexico"
+CNH-R02-L02-A5.BG/2017,"Pantera Exploracion y Produccion 2.2, S.A.P.I. de C.V.",Operador,1.0,"Canada,Mexico"
+CNH-R02-L02-A7.BG/2017,"Pantera Exploracion y Produccion 2.2, S.A.P.I. de C.V.",Operador,1.0,"Canada,Mexico"
+CNH-R02-L02-A8.BG/2017,"Pantera Exploracion y Produccion 2.2, S.A.P.I. de C.V.",Operador,1.0,"Canada,Mexico"
+CNH-R02-L02-A9.BG/2017,"Pantera Exploracion y Produccion 2.2, S.A.P.I. de C.V.",Operador,1.0,"Canada,Mexico"
+CNH-R02-L03-BG-01/2017,"Iberoamericana de Hidrocarburos CQ, Exploracion & Produccion de Mexico, S.A. de C.V.",Operador,1.0,Mexico
+CNH-R02-L03-BG-02/2017,"Newpek Exploracion y Extraccion, S.A. de C.V.",Operador,0.5,Mexico
+CNH-R02-L03-BG-02/2017,"Verdad Exploracion Mexico, S. de R.L. de C.V.",Socio Financiero,0.5,E.U.A.
+CNH-R02-L03-BG-03/2017,"Newpek Exploracion y Extraccion, S.A. de C.V.",Operador,0.5,Mexico
+CNH-R02-L03-BG-03/2017,"Verdad Exploracion Mexico, S. de R.L. de C.V.",Socio Financiero,0.5,E.U.A.
+CNH-R02-L03-BG-04/2017,"Iberoamericana de Hidrocarburos CQ, Exploracion & Produccion de Mexico, S.A. de C.V.",Operador,1.0,Mexico
+CNH-R02-L03-CS-01/2017,"Vista Energy Holding II, S.A. de C.V.",Operador,1.0,Mexico
+CNH-R02-L03-CS-02/2017,"Shandong and Keruy Petroleum, S.A. de C.V.",Operador,1.0,"China,Mexico"
+CNH-R02-L03-CS-03/2017,"Shandong and Keruy Petroleum, S.A. de C.V.",Operador,1.0,"China,Mexico"
+CNH-R02-L03-CS-04/2017,"Operadora Bloque 12, S.A. de C.V.",Operador,1.0,Mexico
+CNH-R02-L03-CS-05/2017,"Operadora Bloque 13, S.A. de C.V.",Operador,1.0,Mexico
+CNH-R02-L03-CS-06/2017,"Jaguar Exploracion y Produccion 2.3, S.A.P.I. de C.V.",Operador,1.0,Mexico
+CNH-R02-L03-TM-01/2017,"Jaguar Exploracion y Produccion 2.3, S.A.P.I. de C.V.",Operador,1.0,Mexico
+CNH-R02-L03-VC-01/2018,"Bloque VC 01, S.A.P.I. de C.V.",Operador,1.0,Mexico
+CNH-R02-L03-VC-02/2017,"Jaguar Exploracion y Produccion 2.3, S.A.P.I. de C.V.",Operador,1.0,Mexico
+CNH-R02-L03-VC-03/2017,"Jaguar Exploracion y Produccion 2.3, S.A.P.I. de C.V.",Operador,1.0,Mexico
+CNH-R02-L04-AP-CM-G01/2018,"PC Carigali Mexico Operations, S.A. de C.V.",Socio Financiero,0.4,Malasia
+CNH-R02-L04-AP-CM-G01/2018,"Repsol Exploracion Mexico, S.A. de C.V.",Operador,0.4,Espana
+CNH-R02-L04-AP-CM-G01/2018,"Ophir Mexico Operations, S.A. de C.V.",Socio Financiero,0.2,Reino Unido
+CNH-R02-L04-AP-CM-G03/2018,"PC Carigali Mexico Operations, S.A. de C.V.",Operador,0.6,Malasia
+CNH-R02-L04-AP-CM-G03/2018,"Ophir Mexico Operations, S.A. de C.V.",Socio Financiero,0.2,Reino Unido
+CNH-R02-L04-AP-CM-G03/2018,"PTTEP Mexico E&P Limited, S. de R.L. de C.V.",Socio Financiero,0.2,Tailandia
+CNH-R02-L04-AP-CM-G05/2018,"PC Carigali Mexico Operations, S.A. de C.V.",Socio Financiero,0.5,Malasia
+CNH-R02-L04-AP-CM-G05/2018,"Repsol Exploracion Mexico, S.A. de C.V.",Operador,0.5,Espana
+CNH-R02-L04-AP-CM-G09/2018,Pemex Exploracion y Produccion,Operador,1.0,Mexico
+CNH-R02-L04-AP-CS-G01/2018,"Shell Exploracion y Extraccion de Mexico, S.A. de C.V.",Operador,0.6,Paises Bajos
+CNH-R02-L04-AP-CS-G01/2018,"Chevron Energia de Mexico, S. de R.L. de C.V.",Socio Financiero,0.4,E.U.A.
+CNH-R02-L04-AP-CS-G02/2018,"Shell Exploracion y Extraccion de Mexico, S.A. de C.V.",Operador,0.6,Paises Bajos
+CNH-R02-L04-AP-CS-G02/2018,"Chevron Energia de Mexico, S. de R.L. de C.V.",Socio Financiero,0.4,E.U.A.
+CNH-R02-L04-AP-CS-G03/2018,"Chevron Energia de Mexico, S. de R.L. de C.V.",Operador,0.375,E.U.A.
+CNH-R02-L04-AP-CS-G03/2018,"Inpex E&P Mexico, S.A. de C.V.",Socio Financiero,0.35,Japon
+CNH-R02-L04-AP-CS-G03/2018,Pemex Exploracion y Produccion,Socio Financiero,0.275,Mexico
+CNH-R02-L04-AP-CS-G04/2018,"Shell Exploracion y Extraccion de Mexico, S.A. de C.V.",Operador,0.6,Paises Bajos
+CNH-R02-L04-AP-CS-G04/2018,"Chevron Energia de Mexico, S. de R.L. de C.V.",Socio Financiero,0.4,E.U.A.
+CNH-R02-L04-AP-CS-G05/2018,"Eni Mexico, S. de R.L. de C.V.",Operador,0.65,Italia
+CNH-R02-L04-AP-CS-G05/2018,"Qatarenergy E&P Mexico, S.A. de C.V.",Socio Financiero,0.35,Qatar
+CNH-R02-L04-AP-CS-G06/2018,"PC Carigali Mexico Operations, S.A. de C.V.",Operador,1.0,Malasia
+CNH-R02-L04-AP-CS-G07/2018,"PC Carigali Mexico Operations, S.A. de C.V.",Operador,1.0,Malasia
+CNH-R02-L04-AP-CS-G09/2018,"Shell Exploracion y Extraccion de Mexico, S.A. de C.V.",Operador,1.0,Paises Bajos
+CNH-R02-L04-AP-CS-G10/2018,"Repsol Exploracion Mexico, S.A. de C.V.",Operador,0.3,Espana
+CNH-R02-L04-AP-CS-G10/2018,"PC Carigali Mexico Operations, S.A. de C.V.",Socio Financiero,0.2833,Malasia
+CNH-R02-L04-AP-CS-G10/2018,"Sierra Nevada E&P, S. de R.L. de C.V.",Socio Financiero,0.25,Mexico
+CNH-R02-L04-AP-CS-G10/2018,"PTTEP Mexico E&P Limited, S. de R.L. de C.V.",Socio Financiero,0.1667,Tailandia
+CNH-R02-L04-AP-PG02/2018,Pemex Exploracion y Produccion,Operador,1.0,Mexico
+CNH-R02-L04-AP-PG03/2018,"Shell Exploracion y Extraccion de Mexico, S.A. de C.V.",Operador,0.6,Paises Bajos
+CNH-R02-L04-AP-PG03/2018,"Qatarenergy E&P Mexico, S.A. de C.V.",Socio Financiero,0.4,Qatar
+CNH-R02-L04-AP-PG04/2018,"Shell Exploracion y Extraccion de Mexico, S.A. de C.V.",Operador,0.6,Paises Bajos
+CNH-R02-L04-AP-PG04/2018,"Qatarenergy E&P Mexico, S.A. de C.V.",Socio Financiero,0.4,Qatar
+CNH-R02-L04-AP-PG05/2018,Pemex Exploracion y Produccion,Operador,1.0,Mexico
+CNH-R02-L04-AP-PG06/2018,"Shell Exploracion y Extraccion de Mexico, S.A. de C.V.",Operador,0.6,Paises Bajos
+CNH-R02-L04-AP-PG06/2018,"Qatarenergy E&P Mexico, S.A. de C.V.",Socio Financiero,0.4,Qatar
+CNH-R02-L04-AP-PG07/2018,"Shell Exploracion y Extraccion de Mexico, S.A. de C.V.",Operador,0.6,Paises Bajos
+CNH-R02-L04-AP-PG07/2018,"Qatarenergy E&P Mexico, S.A. de C.V.",Socio Financiero,0.4,Qatar
+CNH-R03-L01-AS-B-57/2018,"Premier Oil Mexico Recursos, S.A. de C.V.",Operador,1.0,Reino Unido
+CNH-R03-L01-AS-B-60/2018,"Premier Oil Mexico Recursos, S.A. de C.V.",Operador,1.0,Reino Unido
+CNH-R03-L01-AS-CS-06/2018,Pemex Exploracion y Produccion,Socio Financiero,0.5,Mexico
+CNH-R03-L01-AS-CS-06/2018,"TotalEnergies EP Mexico, S.A. de C.V.",Operador,0.35,Francia
+CNH-R03-L01-AS-CS-06/2018,"Qatarenergy E&P Mexico, S.A. de C.V.",Socio Financiero,0.15,Qatar
+CNH-R03-L01-AS-CS-13/2018,Pemex Exploracion y Produccion,Operador,1.0,Mexico
+CNH-R03-L01-AS-CS-14/2018,"Wintershall Dea Mexico, S. de R.L. de C.V.",Operador,0.4,Alemania
+CNH-R03-L01-AS-CS-14/2018,"Premier Oil Mexico Recursos, S.A. de C.V.",Socio Financiero,0.3,Reino Unido
+CNH-R03-L01-AS-CS-14/2018,"SapuraOMV Block 30, S. de R.L. de C.V.",Socio Financiero,0.3,Mexico
+CNH-R03-L01-AS-CS-15/2018,"Hokchi Energy, S.A. de C.V.",Operador,0.75,Argentina
+CNH-R03-L01-AS-CS-15/2018,"Xaxamani Energy, S. de R.L. de C.V.",Socio Financiero,0.25,Mexico
+CNH-R03-L01-G-BG-05/2018,"Repsol Exploracion Mexico, S.A. de C.V.",Operador,1.0,Espana
+CNH-R03-L01-G-BG-07/2018,"Repsol Exploracion Mexico, S.A. de C.V.",Operador,1.0,Espana
+CNH-R03-L01-G-CS-01/2018,"Eni Mexico, S. de R.L. de C.V.",Operador,0.75,Italia
+CNH-R03-L01-G-CS-01/2018,"Lukoil Upstream Mexico, S. de R.L. de C.V.",Socio Financiero,0.25,Rusia
+CNH-R03-L01-G-CS-02/2018,Pemex Exploracion y Produccion,Operador,0.5,Mexico
+CNH-R03-L01-G-CS-02/2018,"Total E&P Mexico, S.A. de C.V.",Socio Financiero,0.5,Francia
+CNH-R03-L01-G-CS-03/2018,"BP Exploration Mexico, S.A. de C.V.",Operador,0.425,Reino Unido
+CNH-R03-L01-G-CS-03/2018,"Total E&P Mexico, S.A. de C.V.",Socio Financiero,0.275,Francia
+CNH-R03-L01-G-CS-03/2018,"Hokchi Energy, S.A. de C.V.",Socio Financiero,0.15,Argentina
+CNH-R03-L01-G-CS-03/2018,"QPI Mexico, S.A. de C.V.",Socio Financiero,0.15,Qatar
+CNH-R03-L01-G-CS-04/2018,Pemex Exploracion y Produccion,Socio Financiero,0.5,Mexico
+CNH-R03-L01-G-CS-04/2018,"Shell Exploracion y Extraccion de Mexico, S.A. de C.V.",Operador,0.5,Paises Bajos
+CNH-R03-L01-G-TMV-01/2018,"Capricorn Energy Mexico, S. de R.L. de C.V.",Operador,0.5,Reino Unido
+CNH-R03-L01-G-TMV-01/2018,"Citla Energy B15, S.A.P.I. de C.V.",Socio Financiero,0.5,Mexico
+CNH-R03-L01-G-TMV-02/2018,Pemex Exploracion y Produccion,Socio Financiero,0.5,Mexico
+CNH-R03-L01-G-TMV-02/2018,"Wintershall Dea Mexico, S. de R.L. de C.V.",Operador,0.5,Alemania
+CNH-R03-L01-G-TMV-03/2018,Pemex Exploracion y Produccion,Socio Financiero,0.5,Mexico
+CNH-R03-L01-G-TMV-03/2018,"Wintershall Dea Mexico, S. de R.L. de C.V.",Operador,0.5,Alemania
+CNH-R03-L01-G-TMV-04/2018,Pemex Exploracion y Produccion,Operador,0.8,Mexico
+CNH-R03-L01-G-TMV-04/2018,"Cepsa E.P. Mexico, S. de R.L. de C.V.",Socio Financiero,0.2,Espana

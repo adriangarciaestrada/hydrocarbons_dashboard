@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: hydrocarbons_dataset
+    database: hydrocarbons-insights-dev
+    schema: hydrocarbons_dataset
+    tables:
+      - name: inversion_detalle
+      - name: produccion_detalle
+      - name: empresas_participantes
+      - name: reservas_detalle

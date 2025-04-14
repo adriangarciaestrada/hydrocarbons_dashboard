@@ -1,0 +1,86 @@
+version: '3.8'
+
+services:
+  dev:
+    build:
+      context: .
+      dockerfile: dockerfile
+    container_name: hydrocarbons-dev
+    volumes:
+      - .:/app
+      - ~/.dbt:/root/.dbt
+      - ./google:/opt/airflow/google
+      - ./data/raw_excel:/opt/airflow/data/raw_excel
+      - ./data/processed_csv:/opt/airflow/data/processed_csv
+      - ./dbt:/opt/airflow/dbt
+    working_dir: /app
+    environment:
+      GOOGLE_APPLICATION_CREDENTIALS: /opt/airflow/google/google_credentials.json
+    stdin_open: true
+    tty: true
+    command: ["/bin/bash", "/app/entrypoint.sh"]
+
+  postgres:
+    image: postgres:13
+    container_name: airflow-postgres
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+    volumes:
+      - postgres_db:/var/lib/postgresql/data
+
+  airflow-webserver:
+    platform: linux/amd64
+    build:
+      context: .
+      dockerfile: dockerfile
+    container_name: airflow-webserver
+    depends_on:
+      - postgres
+    environment:
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
+      AIRFLOW__CORE__FERNET_KEY: your_fernet_key_here
+      AIRFLOW__WEBSERVER__PORT: 8080
+      GOOGLE_APPLICATION_CREDENTIALS: /opt/airflow/google/google_credentials.json
+      AIRFLOW_CONN_GOOGLE_CLOUD_DEFAULT: 'google-cloud-platform://?extra__google_cloud_platform__key_path=/opt/airflow/google/google_credentials.json&extra__google_cloud_platform__project=hydrocarbons-insights-dev'
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - ./scripts:/opt/airflow/scripts
+      - ./logs:/opt/airflow/logs
+      - ./google:/opt/airflow/google
+      - ./data/raw_excel:/opt/airflow/data/raw_excel
+      - ./data/processed_csv:/opt/airflow/data/processed_csv
+      - ./dbt:/opt/airflow/dbt
+      - ~/.dbt:/root/.dbt
+    command: webserver
+
+  airflow-scheduler:
+    platform: linux/amd64
+    build:
+      context: .
+      dockerfile: dockerfile
+    container_name: airflow-scheduler
+    depends_on:
+      - postgres
+    environment:
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
+      GOOGLE_APPLICATION_CREDENTIALS: /opt/airflow/google/google_credentials.json
+      AIRFLOW_CONN_GOOGLE_CLOUD_DEFAULT: 'google-cloud-platform://?extra__google_cloud_platform__key_path=/opt/airflow/google/google_credentials.json&extra__google_cloud_platform__project=hydrocarbons-insights-dev'
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - ./scripts:/opt/airflow/scripts
+      - ./logs:/opt/airflow/logs
+      - ./google:/opt/airflow/google
+      - ./data/raw_excel:/opt/airflow/data/raw_excel
+      - ./data/processed_csv:/opt/airflow/data/processed_csv
+      - ./dbt:/opt/airflow/dbt
+      - ~/.dbt:/root/.dbt
+    command: scheduler
+
+volumes:
+  postgres_db:
