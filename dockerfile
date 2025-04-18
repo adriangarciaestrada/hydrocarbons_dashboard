@@ -23,7 +23,6 @@ RUN wget https://releases.hashicorp.com/terraform/1.6.6/terraform_1.6.6_linux_am
     chmod +x /usr/local/bin/terraform && \
     rm terraform_1.6.6_linux_amd64.zip
 
-# Optional: create terraform working directory
 RUN mkdir -p /app/terraform && chown -R airflow: /app/terraform
 
 # Copy entrypoint and make it executable

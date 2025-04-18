@@ -3,26 +3,23 @@ WITH filtered_investments AS (
         bloque,
         ano AS year,
         ejercido
-    FROM {{ source('hydrocarbons_dataset', 'inversion_detalle') }}
+    FROM {{ source('your_dataset', 'inversion_detalle') }} --#Change with your BigQuery dataset
     WHERE ejercido IS NOT NULL AND ejercido > 0
 ),
 
--- Participaciones válidas para bloques con múltiples empresas
 valid_participations AS (
     SELECT
         bloque,
         empresa,
         interes_de_participacion
-    FROM {{ source('hydrocarbons_dataset', 'empresas_participantes') }}
+    FROM {{ source('your_dataset', 'empresas_participantes') }} --#Change with your BigQuery dataset
     WHERE interes_de_participacion IS NOT NULL
 ),
 
--- Bloques que tienen registros en empresas_participantes
 bloques_con_participacion AS (
     SELECT DISTINCT bloque FROM valid_participations
 ),
 
--- Cálculo proporcional para bloques con varias empresas
 proportional_with_partners AS (
     SELECT
         inv.year,
@@ -38,7 +35,6 @@ proportional_with_partners AS (
         ON inv.bloque = p.bloque
 ),
 
--- Cálculo completo de inversión asignada a PEMEX cuando no hay socios
 proportional_without_partners AS (
     SELECT
         inv.year,
@@ -50,7 +46,6 @@ proportional_without_partners AS (
     WHERE bcp.bloque IS NULL
 ),
 
--- Unión final de ambos casos
 union_all_cases AS (
     SELECT * FROM proportional_with_partners
     UNION ALL

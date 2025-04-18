@@ -6,7 +6,7 @@ from google.cloud import storage
 import os
 
 def upload_files_to_gcs(bucket_name, local_folder, gcs_prefix):
-    client = storage.Client()  # This uses GOOGLE_APPLICATION_CREDENTIALS
+    client = storage.Client()  
     bucket = client.bucket(bucket_name)
 
     for filename in os.listdir(local_folder):
@@ -32,7 +32,7 @@ with DAG(
         task_id="upload_csvs",
         python_callable=upload_files_to_gcs,
         op_kwargs={
-            "bucket_name": "hydrocarbons-cnhdata-jage-bucket",
+            "bucket_name": "your_bucket_name", #Change with your GCS bucket name
             "local_folder": "/opt/airflow/data/processed_csv",
             "gcs_prefix": "hydrocarbons"
         },
@@ -40,7 +40,7 @@ with DAG(
 
     trigger_bq_dag = TriggerDagRunOperator(
         task_id="trigger_load_to_bigquery",
-        trigger_dag_id="load_gcs_to_bigquery_dag",  # 🧩 must match the downstream DAG's `dag_id`
+        trigger_dag_id="load_gcs_to_bigquery_dag", 
         wait_for_completion=False,
         reset_dag_run=True,
     )

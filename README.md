@@ -77,9 +77,13 @@ Click the link below to explore the data-driven insights:
     - Place your JSON credential in the "google" folder and name it "google_credentials.json".
     - Replace the fields that reference your project ID, region, bucket name, and BigQuery dataset in the following files:
         - variables.tf
-        - dbt_setup.sh
         - entrypoint.sh
+        - dbt_setup.sh
         - sources.yml
+        - dash_investments_by_participation.sql
+        - dash_reserves_by_participation.sql
+        - upload_csv_to_gcs_dag.py
+        - load_gcs_to_bigquery_dag.py
 
 **Running the project**
 

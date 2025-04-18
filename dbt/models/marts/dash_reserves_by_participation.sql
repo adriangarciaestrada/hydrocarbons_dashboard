@@ -6,7 +6,7 @@ WITH reservas_filtradas AS (
         categoria,
         petroleo_mmb,
         gas_mmmpc
-    FROM {{ source('hydrocarbons_dataset', 'reservas_detalle') }}
+    FROM {{ source('your_dataset', 'reservas_detalle') }} --#Change with your BigQuery dataset
     WHERE categoria = '2P'
 ),
 
@@ -15,7 +15,7 @@ participaciones_validas AS (
         bloque,
         empresa AS operator,
         interes_de_participacion
-    FROM {{ source('hydrocarbons_dataset', 'empresas_participantes') }}
+    FROM {{ source('your_dataset', 'empresas_participantes') }} --#Change with your BigQuery dataset
     WHERE interes_de_participacion IS NOT NULL
 ),
 
@@ -24,7 +24,6 @@ bloques_participados AS (
 ),
 
 proporcional_union AS (
-    -- Participaciones con % declarado
     SELECT
         r.year,
         r.bloque,
@@ -40,7 +39,6 @@ proporcional_union AS (
 
     UNION ALL
 
-    -- Bloques no presentes en empresas_participantes se asignan 100% a PEMEX
     SELECT
         r.year,
         r.bloque,

@@ -6,7 +6,7 @@ import pendulum
 with DAG(
     dag_id="run_dbt_models_dag",
     start_date=pendulum.now().subtract(days=1),
-    schedule_interval=None,  # only run when triggered
+    schedule_interval=None,  
     catchup=False,
     default_args={"owner": "airflow"},
     tags=["dbt", "transform"],

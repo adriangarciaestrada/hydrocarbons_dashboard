@@ -5,10 +5,10 @@ from datetime import timedelta
 import pendulum
 import os
 
-BUCKET_NAME = "hydrocarbons-cnhdata-jage-bucket"
-GCS_PREFIX = "hydrocarbons"
-BQ_DATASET = "hydrocarbons_dataset"
-GCP_PROJECT_ID = "hydrocarbons-insights-dev"
+BUCKET_NAME = "your_bucket_name" #Change with your GCS bucket name
+GCS_PREFIX = "your_prefix" #Change with a prefix of your choice
+BQ_DATASET = "your_dataset" #Change with your BigQuery dataset
+GCP_PROJECT_ID = "your_project_ID" #Change with your GCP project ID
 CSV_FOLDER = "/opt/airflow/data/processed_csv"
 
 default_args = {
@@ -49,7 +49,6 @@ with DAG(
 
         tasks.append(task)
 
-    # Trigger the dbt DAG after all loading tasks are complete
     trigger_dbt = TriggerDagRunOperator(
         task_id="trigger_dbt_models",
         trigger_dag_id="run_dbt_models_dag"

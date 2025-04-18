@@ -9,16 +9,14 @@ import re
 from unidecode import unidecode
 
 def sanitize_column_name(col):
-    col = unidecode(str(col))                   # remove accents
-    col = re.sub(r"[^\w\s]", "", col)           # remove special characters
-    col = col.strip().replace(" ", "_")         # replace spaces with underscores
+    col = unidecode(str(col))                   
+    col = re.sub(r"[^\w\s]", "", col)           
+    col = col.strip().replace(" ", "_")         
     return col.lower()
 
 def sanitize_dataframe(df):
-    # Sanitize headers
     df.columns = [sanitize_column_name(col) for col in df.columns]
 
-    # Sanitize string cell values
     for col in df.select_dtypes(include=["object"]).columns:
         df[col] = df[col].astype(str).apply(lambda x: unidecode(x).strip())
 
@@ -26,9 +24,9 @@ def sanitize_dataframe(df):
 
 def sanitize_filename(filename):
     name = filename.replace(".xlsx", "")
-    name = unidecode(name)                     # remove accents
-    name = re.sub(r"[^\w\s]", "", name)        # remove special characters
-    name = name.strip().replace(" ", "_")      # replace spaces with underscores
+    name = unidecode(name)                     
+    name = re.sub(r"[^\w\s]", "", name)        
+    name = name.strip().replace(" ", "_")     
     return name.lower() + ".csv"
 
 def convert_excel_to_csv():
