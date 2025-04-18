@@ -1,4 +1,4 @@
-### Hydrocarbond Pipeline and Dashboard
+### Hydrocarbons Pipeline and Dashboard
 
 ## Problem the Dashboard Solves
 In the context of Mexico’s evolving energy sector, it is critical to monitor how investment efforts by public and private stakeholders—particularly PEMEX and private companies—translate into changes in national oil and gas reserves over time. However, decision-makers often face fragmented data sources and lack a centralized, visual overview that connects investment trends with resource ownership outcomes across multiple years. This makes it difficult to:
@@ -46,6 +46,10 @@ Informs future investment strategies, regulation frameworks, and incentive desig
 - **dbt** for data modeling
 - **Looker Studio** for automated dashboards
 
+## Data Source
+
+This data pipeline processes and analyzes publicly available information from the official government platform https://asignacionesycontratos.hidrocarburos.gob.mx. The datasets include investment details, production metrics, reserves, and participating companies related to hydrocarbon exploration and extraction in Mexico. These files are published and maintained by the Comisión Nacional de Hidrocarburos (CNH) to ensure transparency and accessibility of energy sector data.
+
 ## Dashboard Output
 
 Dive into the full interactive dashboard and uncover how investment patterns have influenced Mexico’s oil and gas reserves from 2015 to 2024.
@@ -71,7 +75,7 @@ Click the link below to explore the data-driven insights:
 
 3. Organize Credentials
     - Place your JSON credential in the "google" folder and name it "google_credentials.json".
-    - Replace the fields that reference your project ID, region, bucket_name, bigquery_dataset from the following files:
+    - Replace the fields that reference your project ID, region, bucket name, and BigQuery dataset in the following files:
         - variables.tf
         - dbt_setup.sh
         - entrypoint.sh
