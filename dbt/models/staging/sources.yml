@@ -2,8 +2,8 @@ version: 2
 
 sources:
   - name: hydrocarbons_dataset
-    database: hydrocarbons-insights-dev
-    schema: hydrocarbons_dataset
+    database: your_project_ID #YOUR GCP PROJECT ID HERE
+    schema: your_dataset #YOUR BIGQUERY DATSET HERE
     tables:
       - name: inversion_detalle
       - name: produccion_detalle

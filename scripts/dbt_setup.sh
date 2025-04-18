@@ -15,10 +15,13 @@ echo "hydrocarbons_dashboard:
     dev:
       type: bigquery
       method: service-account
-      project: hydrocarbons-insights-dev
-      dataset: hydrocarbons_dataset
+      project: your_project_ID 
+      dataset: your_dataset
       threads: 4
       keyfile: /opt/airflow/google/google_credentials.json
 " > /home/airflow/.dbt/profiles.yml
 
 echo "✅ dbt profile created for hydrocarbons_dashboard"
+
+
+#### Change the fields "project" with your GCP project ID and "dataset" with your BigQuery dataset

@@ -4,7 +4,6 @@ config-version: 2
 
 profile: 'hydrocarbons_dashboard'
 
-# This is where dbt will look for .sql files
 model-paths: ["models"]
 analysis-paths: ["analyses"]
 test-paths: ["tests"]
@@ -22,6 +21,4 @@ models:
     marts:
       +materialized: table
 
-# Optional: treat warnings as errors (strict mode)
-# flags:
-#   warn-error: true
+

@@ -41,10 +41,9 @@ services:
     environment:
       AIRFLOW__CORE__EXECUTOR: LocalExecutor
       AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
-      AIRFLOW__CORE__FERNET_KEY: your_fernet_key_here
       AIRFLOW__WEBSERVER__PORT: 8080
       GOOGLE_APPLICATION_CREDENTIALS: /opt/airflow/google/google_credentials.json
-      AIRFLOW_CONN_GOOGLE_CLOUD_DEFAULT: 'google-cloud-platform://?extra__google_cloud_platform__key_path=/opt/airflow/google/google_credentials.json&extra__google_cloud_platform__project=hydrocarbons-insights-dev'
+      AIRFLOW_CONN_GOOGLE_CLOUD_DEFAULT: 'google-cloud-platform://?extra__google_cloud_platform__key_path=/opt/airflow/google/google_credentials.json&extra__google_cloud_platform__project=${GCP_PROJECT_ID}'
     ports:
       - "8080:8080"
     volumes:
@@ -70,7 +69,7 @@ services:
       AIRFLOW__CORE__EXECUTOR: LocalExecutor
       AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
       GOOGLE_APPLICATION_CREDENTIALS: /opt/airflow/google/google_credentials.json
-      AIRFLOW_CONN_GOOGLE_CLOUD_DEFAULT: 'google-cloud-platform://?extra__google_cloud_platform__key_path=/opt/airflow/google/google_credentials.json&extra__google_cloud_platform__project=hydrocarbons-insights-dev'
+      AIRFLOW_CONN_GOOGLE_CLOUD_DEFAULT: 'google-cloud-platform://?extra__google_cloud_platform__key_path=/opt/airflow/google/google_credentials.json&extra__google_cloud_platform__project=${GCP_PROJECT_ID}'
     volumes:
       - ./airflow/dags:/opt/airflow/dags
       - ./scripts:/opt/airflow/scripts

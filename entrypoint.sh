@@ -18,7 +18,7 @@ fi
 
 # Set GCP credentials environment variable for all subprocesses
 export GOOGLE_APPLICATION_CREDENTIALS="/opt/airflow/google/google_credentials.json"
-export GCP_PROJECT_ID="hydrocarbons-insights-dev"
+export GCP_PROJECT_ID="your_project_ID" #YOUR GCP PROJECT ID HERE
 
 # Initialize or migrate the Airflow DB
 airflow db migrate

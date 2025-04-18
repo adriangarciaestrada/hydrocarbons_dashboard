@@ -7,7 +7,7 @@ airflow/logs/
 airflow/airflow.db
 
 # GCP credentials
-google/google_credentials.json
+google_credentials.json
 
 # Terraform
 *.tfstate
